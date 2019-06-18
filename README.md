@@ -25,5 +25,8 @@ colSums(is.na(mydata3.new))
 
 # clean missing values from the data 
 mydata3.clean <- na.omit(mydata3.new)
+
+# Nrow of the clean data 
 nrow(mydata3.clean)
+# updated clean data 
 mydata3.clean2 <- mydata3.new [complete.cases(mydata3.new),]
